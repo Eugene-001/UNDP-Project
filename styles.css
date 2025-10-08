@@ -300,3 +300,260 @@ button {
   justify-content: center;
   margin-top: 32px;
 }
+
+.end-to-end-top {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.skill-pills {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.pill {
+  padding: 16px 24px;
+  border-radius: 90px;
+  color: white;
+  background-color: #f79221;
+}
+
+.alumni {
+  padding: 24px 80px;
+  background-color: #4595cd;
+  border-radius: 16px;
+  color: white;
+}
+
+.alumni-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.body1 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 160%;
+  margin-bottom: 16px;
+}
+
+.footer {
+  padding: 40px;
+  background-color: black;
+  color: white;
+  margin-top: 40px;
+  border-radius: 16px;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #555555;
+}
+
+.inner-footer {
+  background-color: #333;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.footer-top-right {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  padding: 8px 16px;
+  border: 1px solid #555555;
+  border-radius: 90px;
+  background-color: #424242;
+
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.newsletter {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.newsletter-body {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+.footer-bottom1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.bottom-right1 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+@media (max-width: 900px) {
+  .Main-container {
+    max-width: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+    display: block;
+  }
+
+  .navigation {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .nav-links {
+    gap: 12px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .green-section {
+    height: auto;
+    min-height: 320px;
+    padding: 24px !important;
+  }
+
+  .white-section,
+  .about-programme,
+  .H-image,
+  .alumni,
+  .inner-footer,
+  .footer {
+    padding: 24px !important;
+    border-radius: 12px !important;
+  }
+
+  .header-text {
+    font-size: 2rem !important;
+  }
+
+  .body-texts,
+  .about-body,
+  .text-header,
+  .text-bodyy,
+  .journey-body,
+  .end-to-end-top,
+  .alumni-header,
+  .newsletter,
+  .newsletter-body {
+    font-size: 1.1rem !important;
+  }
+
+  .colored-text {
+    font-size: 0.95rem !important;
+  }
+
+  .pill {
+    font-size: 0.95rem !important;
+  }
+
+  .bottom-highlight,
+  .footer-bottom1,
+  .footer-top {
+    gap: 24px !important;
+  }
+
+  .bottom-left,
+  .bottom-right,
+  .bottom-left1,
+  .bottom-right1 {
+    min-width: 0 !important;
+    box-sizing: border-box;
+    padding: 16px !important;
+    border-radius: 12px !important;
+  }
+  .pill {
+    font-size: 0.95rem !important;
+  }
+
+  .colored-text {
+    font-size: 0.9rem !important;
+  }
+  .H-image img,
+  .about-image img,
+  .journey-image img,
+  .bottom-left img,
+  .bottom-right img,
+  .alumni img,
+  .bottom-left1 img,
+  .bottom-right1 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .pill {
+    font-size: 0.65rem !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow-wrap: anywhere !important;
+    text-align: center;
+  }
+
+  .nav-links a {
+    font-size: 0.65rem !important;
+    /* padding: 8px 12px !important; */
+  }
+
+  .hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 0;
+  }
+  .hero-image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .sponsors-logo {
+    flex-wrap: wrap;
+    gap: 24px !important;
+    padding: 16px 0 !important;
+    justify-content: center;
+  }
+  .sponsors-logo img {
+    max-width: 120px;
+    max-height: 60px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+  }
+  .logos {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+}
