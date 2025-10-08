@@ -147,3 +147,156 @@ button {
     transform: translateX(0);
   }
 }
+
+.about-programme {
+  padding: 40px;
+  background-color: #111;
+  color: white;
+  margin-top: 40px;
+  border-radius: 16px;
+  margin-bottom: 40px;
+}
+
+.about-header {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.about-body {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 16px;
+  line-height: 140%;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.H-image {
+  padding: 24px;
+  background-color: #72b555;
+  border-radius: 16px;
+}
+
+.H-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+}
+
+.bottom-highlight {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+
+.bottom-left {
+  background-color: #f79221;
+  padding: 24px;
+  flex: 3;
+  border-radius: 16px;
+}
+
+.bottom-right {
+  background-color: #8d2e91;
+  padding: 24px;
+  flex: 2;
+  border-radius: 16px;
+}
+
+.text-header {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.text-bodyy {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 160%;
+  margin-bottom: 16px;
+}
+
+.colored-numbers {
+  display: flex;
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+.No1 {
+  background-color: #4595cd;
+  padding: 24px;
+}
+
+.No2 {
+  background-color: #f79221;
+  padding: 24px;
+}
+
+.No3 {
+  background-color: #72b555;
+  padding: 24px;
+}
+
+.No4 {
+  background-color: #8d2e91;
+  padding: 24px;
+}
+
+.No {
+  text-align: end;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 80px;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.colored-text {
+  font-size: 1rem;
+  font-weight: 300;
+  color: white;
+  line-height: 140%;
+}
+
+.jouney-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.journey-body {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 160%;
+  margin-bottom: 16px;
+}
+
+.journey-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
