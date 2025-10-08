@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "proxima-nova", sans-serif;
+}
+
+.Main-container {
+  width: 1314px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 16px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.active {
+  color: #72b555;
+  text-decoration: underline;
+}
+
+button {
+  padding: 16px 24px;
+  background-color: #72b555;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.green-section {
+  height: 110vh;
+  background-color: #72b555;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  border-radius: 16px;
+}
+
+.hero-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.white-section {
+  background-color: white;
+  border-radius: 16px;
+}
+
+.header-text {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.body-texts {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 140%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 16px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sponsors-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 32px 54px;
+  border-radius: 16px;
+  border: 1px solid #ddd;
+  margin-top: 40px;
+  background-color: #fafafa;
+}
+
+.slider-section {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider1,
+.slider2 {
+  display: flex;
+  width: max-content;
+  animation: slide-pingpong 45s linear infinite alternate;
+  margin-top: 40px;
+}
+
+@keyframes slide-pingpong {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.s-images {
+  flex: 0 0 auto;
+  margin-right: 16px;
+}
+
+.slider2 {
+  display: flex;
+  width: max-content;
+  animation: slide-pingpong-reverse 45s linear infinite alternate;
+  margin-top: 40px;
+}
+
+@keyframes slide-pingpong-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
