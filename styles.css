@@ -704,10 +704,11 @@ button {
 
   .text-header {
     font-size: 1.2rem !important;
+    text-align: center;
   }
 
   .text-bodyy {
-    font-size: 0.8rem !important;
+    font-size: 1rem !important;
     text-align: center !important;
     width: 100% !important;
     margin: 0 auto !important;
@@ -715,5 +716,10 @@ button {
     padding: 0 8px !important;
     display: block !important;
     box-sizing: border-box !important;
+  }
+
+  .colored-numbers {
+    flex-direction: column;
+    height: auto !important;
   }
 }
