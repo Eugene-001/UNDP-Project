@@ -722,4 +722,53 @@ button {
     flex-direction: column;
     height: auto !important;
   }
+
+  .jouney-title {
+    font-size: 1.2rem !important;
+    text-align: center;
+  }
+
+  .journey-body {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .skill-pills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px !important;
+  }
+
+  .end-to-end {
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  .about-body {
+    font-size: 1rem !important;
+    font-weight: 300 !important;
+  }
+
+  .body1 {
+    font-size: 1rem !important;
+    font-weight: 300 !important;
+  }
+
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .newsletter-body {
+    font-size: 1rem !important;
+    font-weight: 300 !important;
+  }
+
+  .footer-top-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
