@@ -333,14 +333,21 @@ button {
     gap: 16px;
   }
 
+  .footer-top-left {
+    max-width: 100%;
+    width: 100%;
+  }
+
   .newsletter-body {
     font-size: 1rem !important;
     font-weight: 300 !important;
+    max-width: 100% !important;
   }
 
   .footer-top-right {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
   }
 }
