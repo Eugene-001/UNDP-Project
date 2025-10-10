@@ -13,6 +13,10 @@ body {
   width: 100%;
 }
 
+.nav-links-for-mobile {
+  display: none;
+}
+
 .navigation {
   display: flex;
   flex-direction: row;
@@ -597,6 +601,31 @@ button {
   }
   .navigation .nav-links {
     display: none !important;
+  }
+
+  .nav-links-for-mobile {
+    display: flex;
+    flex-direction: row;
+    padding: 16px 24px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .nav-links-for-mobile a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .nav-links-for-mobile .active-link {
+    color: #72b555;
+    text-decoration: underline;
+    font-weight: bold;
   }
 
   .navigation {
