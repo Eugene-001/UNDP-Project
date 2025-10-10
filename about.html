@@ -29,9 +29,28 @@
         </div>
 
         <div class="right">
-          <div class="button">
+          <!-- <div class="button">
             <div class="apply-button">
               <button class="hero-btn">Apply Now</button>
+            </div>
+          </div> -->
+
+          <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <div class="mobile-menu" id="mobileMenu">
+              <div class="mobile-nav-links">
+                <a href="index.html" class="mobile-link">Home</a>
+                <a href="about.html" class="mobile-link active">About</a>
+                <a href="FAQ.html" class="mobile-link">FAQ</a>
+                <div class="mobile-apply-button">
+                  <button class="hero-btn">Apply Now</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -141,5 +160,26 @@
         </div>
       </div>
     </div>
+
+    <script>
+      function toggleMenu() {
+        const hamburgerIcon = document.querySelector(".hamburger-icon");
+        const mobileMenu = document.getElementById("mobileMenu");
+
+        hamburgerIcon.classList.toggle("active");
+        mobileMenu.classList.toggle("show");
+      }
+
+      // Close menu when clicking outside
+      document.addEventListener("click", function (event) {
+        const hamburgerMenu = document.querySelector(".hamburger-menu");
+        const mobileMenu = document.getElementById("mobileMenu");
+
+        if (!hamburgerMenu.contains(event.target)) {
+          mobileMenu.classList.remove("show");
+          document.querySelector(".hamburger-icon").classList.remove("active");
+        }
+      });
+    </script>
   </body>
 </html>
