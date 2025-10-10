@@ -36,6 +36,7 @@ a {
 .active {
   color: #72b555;
   text-decoration: underline;
+  font-weight: bold;
 }
 
 button {
