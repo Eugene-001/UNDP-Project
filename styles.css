@@ -353,8 +353,15 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start;
   padding-bottom: 32px;
   border-bottom: 1px solid #555555;
+  gap: 24px;
+}
+
+.footer-top-left {
+  flex: 1;
+  max-width: 60%;
 }
 
 .inner-footer {
@@ -372,9 +379,10 @@ button {
   border: 1px solid #555555;
   border-radius: 90px;
   background-color: #424242;
-
   font-size: 1rem;
   font-weight: 300;
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 
 .newsletter {
