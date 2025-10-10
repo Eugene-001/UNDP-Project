@@ -414,6 +414,11 @@ button {
     display: block;
   }
 
+  .colored-numbers {
+    display: flex;
+    flex-direction: column;
+    height: auto !important;
+  }
   .navigation {
     position: relative;
     justify-content: center;
